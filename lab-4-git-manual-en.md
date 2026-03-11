@@ -23,18 +23,9 @@ Git is widely used in **software development, research, DevOps, and data science
 Before starting this laboratory work ensure that:
 
 - Git is installed
-- A code editor is installed (VS Code recommended)
+- A code editor is installed (notepad, notepad++, sublime, VS code …)
 - You know basic terminal commands
 - You have a GitHub account
-
-Recommended tools:
-
-| Tool | Purpose |
-|-----|------|
-| Git | Version control |
-| VS Code | Code editor |
-| Terminal | Command execution |
-| GitHub | Remote repositories |
 
 ---
 
@@ -174,9 +165,9 @@ Remote Repository
 
 ---
 
-# 7. Lab 1 — Basic Git Workflow
+# 7. Basic Git Workflow (there are terminal commands)
 
-## Create project folder
+## Create project folder (create and change directory)
 
 ```bash
 mkdir git_lab
@@ -250,7 +241,7 @@ git log
 
 ---
 
-# 8. Lab 2 — Branching and Merge Conflicts
+# 8. Branching and Merge Conflicts
 
 ## Create branch
 
@@ -330,7 +321,7 @@ git commit
 
 ---
 
-# 9. Lab 3 — GitHub and Collaboration
+# 9. GitHub and Collaboration
 
 ## Create GitHub repository
 
@@ -504,9 +495,9 @@ Markdown example:
 
 ---
 
-# 14. Exercises for Students
+# Exercises 
 
-Students must:
+### Todo list:
 
 1. Install Git
 2. Configure Git
@@ -518,45 +509,9 @@ Students must:
 8. Push project to GitHub
 9. Create Pull Request
 
----
 
-# 15. Best Practices
 
-Students should:
-
-- Write clear commit messages
-- Commit small logical changes
-- Use branches for features
-- Pull before pushing
-- Avoid committing temporary files
-
-Example good commit message:
-
-```
-Add login validation
-
-- Added email validation
-- Added password check
-- Updated error messages
-```
-
----
-
-# 16. Expected Results
-
-After completing the laboratory work students should be able to:
-
-- install Git
-- configure Git
-- create repositories
-- commit changes
-- work with branches
-- resolve merge conflicts
-- collaborate using GitHub
-
----
-
-# 17. Additional Resources
+## Additional Resources
 
 Git Documentation  
 https://git-scm.com/docs
@@ -566,10 +521,3 @@ https://git-scm.com/book
 
 GitHub Learning Lab  
 https://lab.github.com
-
----
-
-# Conclusion
-
-This laboratory work introduces students to **Git fundamentals, branching, and collaboration workflows**.  
-Understanding Git is essential for modern software development and teamwork.
